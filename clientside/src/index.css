@@ -1,0 +1,16 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* dark mode */
+
+#dark {
+    background-color: #2F3645;
+    color: #f4eee0;
+    /* background-color: #5f264a;
+    color: #f4eee0; */
+}
+
+

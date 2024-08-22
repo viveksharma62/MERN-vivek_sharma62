@@ -1,0 +1,50 @@
+.sidebar-section{
+    display: flex;
+    /* background-color: black; */
+    background-image: url('../../assets/images/LinkedInBanner.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.sidebar{
+    height: 100vh;
+    /* background-color: #1e1e2c; */
+    /* background-color: #433D8B; */
+    background-color: #046169;
+    width: 90px;
+    position: fixed;
+}
+
+.sidebar-toggle{
+    width: 200px;
+    height: 120vh;
+}
+
+.sidebar-toggle-icon{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+
+}
+.sidebar-toggle-icon p svg{
+    background-color: #f29f67;
+    color:white;
+    margin-top: 30px;
+    width: 20px;
+    height: auto;
+}
+
+/* ===   MOBILE VIEW ========== */
+@media (max-width : 600px){
+    .sidebar{
+        display: none;
+    }
+}
+
+#dark .sidebar-section{
+    background-image: url('../../assets/images/LinkedInBanner2.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
